@@ -1,0 +1,165 @@
+body{
+    margin: 0px;
+}
+
+h1{
+    font-family: "Inter", sans-serif;
+    font-size: 50px;
+    font-weight: 750;
+    margin: 0px;
+}
+
+h2{
+    font-family: "Inter", sans-serif;
+    font-size: 13.8px;
+    font-weight: 200;
+    margin: 0px;
+    letter-spacing: 3px;
+}
+
+h3{
+    font-family: "Inter", sans-serif;
+    font-size: 9px;
+    font-weight: 800;
+    margin-top: 1px;
+    margin-left: 0px;
+    margin-bottom: 25px;
+    white-space: normal;
+    overflow-wrap: break-word;
+}
+
+.cima{
+    display: flex;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#textos{
+    display: flex;
+    flex-direction: column;
+}
+
+header img{
+    height: 90px;
+}
+
+.paises img{
+    margin-left: 0px;
+    width: 50px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px gray;
+}
+
+.paises{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+#weare{
+    margin-left: 33px;
+}
+
+.btn{
+    font-family: "Inter", sans-serif;
+    margin: 4px 0px 0px 10px;
+    border: 1px solid gray;
+    border-radius: 0px 10px 0px 10px;
+    background: none;
+    min-width: 64px;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.cartas{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.descriçao{
+    text-align: center;
+    width: 80px;
+    height: 75px;
+}
+
+.borda{
+    width: fit-content;
+    position: relative;
+    border: 1px solid #c0c0c0;
+    padding: 30px 30px 0px 20px;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-bottom: 30px
+}
+
+.nomeGrupo{
+    font-family: "Inter", sans-serif;
+    font-weight: 750;
+    position: absolute;
+    top: -19px;
+    left: 80px;
+    background-color: white;
+    padding: 10px 20px 0px 20px;
+    letter-spacing: 5px;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.esquerda{
+    width: 60%;
+}
+
+.direita{
+    width: 40%;
+}
+
+.esquerda .direita{
+    flex: 1;
+}
+
+.direita img{
+    margin-left: 50px;
+}
+
+.controle{
+    height: 800px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    color: black;
+}
+
+.controle::-webkit-scrollbar{
+    width: 12px;
+}
+
+.controle::-webkit-scrollbar-track{
+    background: white;
+    border-radius: 10px;
+}
+
+/* parte que você arrasta */
+.controle::-webkit-scrollbar-thumb{
+    background: rgb(43, 41, 41);
+    border-radius: 10px;
+    border: 2px solid #f0f0f0;
+}
+
+/* quando passa o mouse */
+.controle::-webkit-scrollbar-thumb:hover{
+    background: rgb(43, 41, 41);
+    cursor: pointer;
+}
