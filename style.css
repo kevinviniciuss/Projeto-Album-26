@@ -36,7 +36,8 @@ h3{
 header{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
+    margin-left: 400px;
     margin-top: 15px;
 }
 
@@ -161,5 +162,23 @@ header img{
 /* quando passa o mouse */
 .controle::-webkit-scrollbar-thumb:hover{
     background: rgb(43, 41, 41);
+    cursor: pointer;
+}
+
+#preview{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#fotoCarta{
+    width: 350px;
+    border-radius: 15px;
+}
+
+#btnObtido{
+    margin-top: -10px;
+    padding: 10px 25px;
     cursor: pointer;
 }
